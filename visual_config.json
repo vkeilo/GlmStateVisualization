@@ -1,5 +1,6 @@
 {
     "save_dir_path": "./datas/",
     "tmp_dir_path": "./tmp",
-    "THUDM_dir_path": "E:\\github_project\\ChatGLM3\\THUDM"
+    "THUDM_dir_path": "E:\\github_project\\ChatGLM3\\THUDM",
+    "role_setting_prompt_json": "dialogues/role_prompt.json"
 }

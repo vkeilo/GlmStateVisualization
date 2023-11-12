@@ -1,0 +1,12 @@
+{
+  "dialogues": [
+    {
+      "role": "user",
+      "content": "Now you are a translator, you will translate every words I say to chinese. My first centence is: The price of gold had nearly reached unbelievable 480 yuan per gram."
+    },
+    {
+      "role": "assistant",
+      "content": "黄金的价格上涨到了令人难以置信的四百八元每克。"
+    }
+  ]
+}
