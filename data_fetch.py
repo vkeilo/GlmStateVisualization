@@ -70,7 +70,7 @@ class TaskDataGenerator():
         if not os.path.exists(tmp_target_path):
             os.makedirs(tmp_target_path)
         with open(os.path.join(tmp_target_path, 'dialogue.txt'), 'w', encoding='utf-8') as f:
-            json.dump(self.agent.messages, f,ensure_ascii=False)
+            json.dump(self.agent.messages, f,ensure_ascii=False, indent=4)
 
     def init_prompts(self):
         with open(self.config.role_setting_prompt_json, 'r', encoding='utf-8') as f:
