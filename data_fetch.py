@@ -31,7 +31,7 @@ class TaskDataGenerator():
         self.check_ori_hidden_state_path_empty()
         # 先随机取一个任务描述作为当前agent的行为准则
         tmp_task_prompt = self.get_random_task_prompt()
-        self.agent.init_messages_by_sentence(tmp_task_prompt)
+        # self.agent.init_messages_by_sentence(tmp_task_prompt)
         # 第一次的初步post
         self.agent.prompt_add(tmp_task_prompt)
         logger.info(f'Current task prompt: \t{tmp_task_prompt}')
@@ -42,9 +42,9 @@ class TaskDataGenerator():
         # 然后是第二次的自由发挥
         for text in self.text_prompts[self.processing_text_index]:
             self.agent.prompt_add(text)
-            logger.info(f'Next try: \t{text}')
+            logger.info(f'Next try: \n{text}')
             second_result = self.agent.prompt_post()
-            logger.info(f'gpt return: \t{second_result}')
+            logger.info(f'gpt return: \n{second_result}')
         # 整理结果，保存记录
         self.task_result_record()
         self.hidden_state_move()
@@ -92,4 +92,4 @@ class TaskDataGenerator():
 
 
 test_TaskDataGenerator = TaskDataGenerator(visualconfig, task_pattern="translator")
-test_TaskDataGenerator.start_fetch(0, 2)
+test_TaskDataGenerator.start_fetch(1002, 1003)
