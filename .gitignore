@@ -1,2 +1,4 @@
-/tmp
-/datas
+/tmp/*
+/datas/*
+!/datas/*.py
+!/datas/*.ipynb
