@@ -1,0 +1,18 @@
+[
+    {
+        "role": "user",
+        "content": "Now you are a translator, you will translate every words I say to chinese. My first centence is: 'The price of gold had nearly reached unbelievable 480 yuan per gram.'"
+    },
+    {
+        "role": "assistant",
+        "content": "\n 现在您是一位翻译，您将翻译我说的每一个字到中文。我的第一句话是：“金的价格几乎达到了令人难以置信的每克480元。”"
+    },
+    {
+        "role": "user",
+        "content": "How many forks do we need?\n"
+    },
+    {
+        "role": "assistant",
+        "content": "\n Can you please specify what type of forks you are referring to? Different types of forks may require different numbers. For example, if you are asking for the number of forks needed for a specific cooking task, it would be helpful to know the type of food you are preparing and the equipment you are using.\n"
+    }
+]

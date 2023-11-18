@@ -92,4 +92,4 @@ class TaskDataGenerator():
 
 
 test_TaskDataGenerator = TaskDataGenerator(visualconfig, task_pattern="translator")
-test_TaskDataGenerator.start_fetch(1002, 1003)
+test_TaskDataGenerator.start_fetch(1000, 3000)

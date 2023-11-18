@@ -1,0 +1,45 @@
+{
+    "dialogues": [
+      {
+        "role": "user",
+        "content": "接下来，你会收到一系列原始英文文本和不知道是否正确的翻译版本，你要判断这个翻译是否正确，如果译文与原文意思大致吻合，返回{It's correct translation, so I return 0}，如果译文与原文意思完全不相干，则返回{Translation is not correcrt, so I return 1},你只能在这两种回答中选择一种，不要废话！！"
+      },
+      {
+        "role": "assistant",
+        "content": "好的，我明白了"
+      },
+      {
+        "role": "user",
+        "content": "['Original text': 'I have three tickets.\n', 'Translated text': '\n I have three tickets.']"
+      },
+      {
+        "role": "assistant",
+        "content": "It's correct translation, so I return 0"
+      },
+      {
+        "role": "user",
+        "content": "['Original text': 'Does your salary get put on your pay card on a monthly basis?\n', 'Translated text': '\n Yes, my salary is typically put on my pay card on a monthly basis.']"
+      },
+      {
+        "role": "assistant",
+        "content": "Translation is not correcrt, so I return 1"
+      },
+      {
+        "role": "user",
+        "content": "['Original text': 'Do you have any free time?\n', 'Translated text': '\n Yes, what can I help you?']"
+      },
+      {
+        "role": "assistant",
+        "content": "It's correct translation, so I return 0"
+      },
+      {
+        "role": "user",
+        "content": "['Original text': 'Nice wether today!\n', 'Translated text': '\n 今天真是个好天气！']"
+      },
+      {
+        "role": "assistant",
+        "content": "Translation is not correcrt, so I return 1"
+      }
+
+    ]
+  }

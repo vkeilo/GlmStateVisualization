@@ -1,0 +1,18 @@
+[
+    {
+        "role": "user",
+        "content": "As a conversational translator, please interpret this English sentence into Chinese: 'The conservation efforts for the coral reefs are showing positive results.'"
+    },
+    {
+        "role": "assistant",
+        "content": "\n 珊瑚礁的保护工作已经取得了积极的结果。"
+    },
+    {
+        "role": "user",
+        "content": "When did you get back from your trip?\n"
+    },
+    {
+        "role": "assistant",
+        "content": "\n 我回到中国的时候是2021年7月2日。"
+    }
+]
