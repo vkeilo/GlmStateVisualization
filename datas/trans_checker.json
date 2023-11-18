@@ -1,0 +1,37 @@
+{
+    "dialogues": [
+      {
+        "role": "user",
+        "content": "Next, you will check a series of translation tasks for accuracy. If the translated content is actually the Chinese translation of the original text, you will return the character '0'. If the translated content is not the translation of the original text's characters, you will return the character '1'. The first task is as follows: ['Original text': 'I have three tickets.\n', 'Translated text': '\n I have three tickets.']"
+      },
+      {
+        "role": "assistant",
+        "content": "It's correct translation, so I return 0"
+      },
+      {
+        "role": "user",
+        "content": "['Original text': 'Does your salary get put on your pay card on a monthly basis?\n', 'Translated text': '\n Yes, my salary is typically put on my pay card on a monthly basis.']"
+      },
+      {
+        "role": "assistant",
+        "content": "Translation not correcrt, so I return 1"
+      },
+      {
+        "role": "user",
+        "content": "['Original text': 'Do you have any free time?\n', 'Translated text': '\n Yes, what can I help you?']"
+      },
+      {
+        "role": "assistant",
+        "content": "It's correct translation, so I return 0"
+      },
+      {
+        "role": "user",
+        "content": "['Original text': 'Nice wether today!\n', 'Translated text': '\n 今天真是个好天气！']"
+      },
+      {
+        "role": "assistant",
+        "content": "Translation not correcrt, so I return 1"
+      }
+
+    ]
+  }
