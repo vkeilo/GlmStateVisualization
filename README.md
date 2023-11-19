@@ -9,7 +9,7 @@ A object to visualize hidden state of chatglm3 model.
 # data preparing
 | task | nums | 
 | :----: | :----: |
-| translator | 1000 |
+| translator | 1034 |
 | summarizer | 1000 |
 | first word selector | 1000 |
 | word num counter | 1000 |
