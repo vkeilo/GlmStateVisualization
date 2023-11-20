@@ -4,6 +4,7 @@
     "ori_hidden_state_path": "E:\\github_project\\ChatGLM3\\THUDM\\hids",
     "role_setting_prompt_json": "dialogues/role_prompt.json",
     "text_prompt_data_path": {
-        "translator": "datas/en_ch_ori_data_processed.txt"
+        "translator": "datas/en_ch_ori_data_processed.txt",
+        "counter": "datas/en_ch_ori_data_processed.txt"
     }
 }
