@@ -11,7 +11,7 @@ class VisualConfig():
         self.THUDM_dir_path = self.config["THUDM_dir_path"]
         self.role_setting_prompt_json = self.config["role_setting_prompt_json"]
         self.text_prompt_data_path = self.config["text_prompt_data_path"]
-
+        self.hidden_layer_width = self.config["hidden_layer_width"]
     def get_config(self, file_name):
         with open(file_name, 'r', encoding='utf-8') as f:
             config = json.load(f)
